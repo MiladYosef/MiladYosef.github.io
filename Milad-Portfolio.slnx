@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="frontend/frontend.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+  <Project Path="Milad-Portfolio.AppHost/Milad-Portfolio.AppHost.csproj" />
+  <Project Path="Milad-Portfolio.Server/Milad-Portfolio.Server.csproj" />
+</Solution>
