@@ -60,13 +60,14 @@ function App() {
                     </p>
 
                     <div className="hero-buttons">
-                        <a href="#games" className="button button-primary">
+                        {/* <a href="#games" className="button button-secondary">
                             View My Games
-                        </a>
+                        </a> */}
 
                         <a href="#about" className="button button-primary">
                             About Me
                         </a>
+
                     </div>
 
                 </div>

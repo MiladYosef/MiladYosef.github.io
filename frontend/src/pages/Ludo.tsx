@@ -91,13 +91,19 @@ function Ludo() {
                 </p>
 
                 <div className="hero-buttons">
-                    <a
+
+                    {/* <a
                         href="/downloads/Ludo.apk"
                         className="button button-primary"
                         download
                     >
                         DOWNLOAD GAME
+                    </a> */}
+
+                    <a href="#about" className="button button-primary">
+                        DOWNLOAD IS DISABLED
                     </a>
+
                 </div>
 
             </section>
