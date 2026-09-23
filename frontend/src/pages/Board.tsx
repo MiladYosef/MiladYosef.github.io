@@ -11,12 +11,6 @@ function Board() {
                     <li>
                         <a href="/">Home</a>
                     </li>
-                    <li>
-                        <a href="/#games">Games</a>
-                    </li>
-                    <li>
-                        <a href="/#about">About</a>
-                    </li>
                 </ul>
             </nav>
 
@@ -40,7 +34,7 @@ function Board() {
                             PLATFORM
                         </span>
                         <span className="info-value">
-                            Mobile
+                            Android Mobile
                         </span>
                     </div>
 
@@ -58,7 +52,7 @@ function Board() {
                             LANGUAGE
                         </span>
                         <span className="info-value">
-                            C#
+                            C# Programming
                         </span>
                     </div>
 
@@ -69,76 +63,6 @@ function Board() {
                         <span className="info-value">
                             Game Developer
                         </span>
-                    </div>
-
-                </div>
-
-            </section>
-
-            {/* Download Game */}
-            <section className="download-section">
-
-                <div className="section-label">
-                    DOWNLOAD
-                </div>
-
-                <h2 className="section-title">
-                    Play Board
-                </h2>
-
-                <p className="about-text">
-                    Download Board and experience the game yourself.
-                </p>
-
-                <div className="hero-buttons">
-
-                    {/* <a
-                        href="/downloads/Board.apk"
-                        className="button button-primary"
-                        download
-                    >
-                        DOWNLOAD GAME
-                    </a> */}
-
-                    <a href="#about" className="button button-primary">
-                        DOWNLOAD IS DISABLED
-                    </a>
-
-                </div>
-
-            </section>
-
-
-            <section className="gameplay-section">
-
-                <div className="section-label">
-                    Gameplay
-                </div>
-
-                <h2 className="section-title">
-                    How It Works
-                </h2>
-
-                <div className="gameplay-content">
-
-                    <div className="gameplay-text">
-
-                        <h3>
-                            Strategy & Gameplay
-                        </h3>
-
-                        <p>
-                            BOARD is built around engaging gameplay,
-                            simple controls and strategic decisions.
-                            The player interacts with the game board
-                            to progress through each challenge.
-                        </p>
-
-                        <p>
-                            The gameplay focuses on player interaction,
-                            decision making and an enjoyable game experience.
-                        </p>
-
                     </div>
 
                 </div>
@@ -196,17 +120,10 @@ function Board() {
                     </h2>
 
                     <p className="about-text">
-                        BOARD is a mobile game created by Milad Yousefi.
-                        The game focuses on engaging gameplay,
-                        player interaction and strategic decisions.
+                        "BOARD" is a mobile game inspired by the chalkboard; 
+                        <br /><br />
+                        all objects are designed to resemble chalk drawings, and the game features numerous environmental challenges.
                     </p>
-
-                    <div className="skills">
-                        <span className="skill">Mobile</span>
-                        <span className="skill">Unity</span>
-                        <span className="skill">C#</span>
-                        <span className="skill">Game Development</span>
-                    </div>
 
                 </div>
 

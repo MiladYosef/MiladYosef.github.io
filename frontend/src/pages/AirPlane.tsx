@@ -11,12 +11,6 @@ function AirPlane() {
                     <li>
                         <a href="/">Home</a>
                     </li>
-                    <li>
-                        <a href="/#games">Games</a>
-                    </li>
-                    <li>
-                        <a href="/#about">About</a>
-                    </li>
                 </ul>
             </nav>
 
@@ -40,7 +34,7 @@ function AirPlane() {
                             PLATFORM
                         </span>
                         <span className="info-value">
-                            Mobile
+                            Android Mobile
                         </span>
                     </div>
 
@@ -58,7 +52,7 @@ function AirPlane() {
                             LANGUAGE
                         </span>
                         <span className="info-value">
-                            C#
+                            C# Programming
                         </span>
                     </div>
 
@@ -74,78 +68,6 @@ function AirPlane() {
                 </div>
 
             </section>
-
-            {/* Download Game */}
-            <section className="download-section">
-
-                <div className="section-label">
-                    DOWNLOAD
-                </div>
-
-                <h2 className="section-title">
-                    Play AirPlane
-                </h2>
-
-                <p className="about-text">
-                    Download AirPlane and experience the game yourself.
-                </p>
-
-                <div className="hero-buttons">
-
-                    {/* <a
-                        href="/downloads/AirPlane.apk"
-                        className="button button-primary"
-                        download
-                    >
-                        DOWNLOAD GAME
-                    </a> */}
-
-                    <a href="#about" className="button button-primary">
-                        DOWNLOAD IS DISABLED
-                    </a>
-
-                </div>
-
-            </section>
-
-
-            <section className="gameplay-section">
-
-                <div className="section-label">
-                    Gameplay
-                </div>
-
-                <h2 className="section-title">
-                    How It Works
-                </h2>
-
-                <div className="gameplay-content">
-
-                    <div className="gameplay-text">
-
-                        <h3>
-                            Flight & Control
-                        </h3>
-
-                        <p>
-                            AIR PLANE is built around flight,
-                            movement and player control.
-                            The player interacts with the aircraft
-                            while progressing through the gameplay.
-                        </p>
-
-                        <p>
-                            The game focuses on responsive controls,
-                            gameplay challenges and an enjoyable
-                            flying experience.
-                        </p>
-
-                    </div>
-
-                </div>
-
-            </section>
-
 
             <section className="screenshots-section">
 
@@ -209,18 +131,8 @@ function AirPlane() {
                     </h2>
 
                     <p className="about-text">
-                        AIR PLANE is a mobile game created by
-                        Milad Yousefi.
-                        The game focuses on flight,
-                        player control and gameplay.
+                        The core challenge of this game lies in upgrading your aircraft to cover greater distances.
                     </p>
-
-                    <div className="skills">
-                        <span className="skill">Mobile</span>
-                        <span className="skill">Unity</span>
-                        <span className="skill">C#</span>
-                        <span className="skill">Game Development</span>
-                    </div>
 
                 </div>
 

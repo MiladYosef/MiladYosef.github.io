@@ -11,12 +11,6 @@ function Ludo() {
                     <li>
                         <a href="/">Home</a>
                     </li>
-                    <li>
-                        <a href="/#games">Games</a>
-                    </li>
-                    <li>
-                        <a href="/#about">About</a>
-                    </li>
                 </ul>
             </nav>
 
@@ -40,7 +34,7 @@ function Ludo() {
                             PLATFORM
                         </span>
                         <span className="info-value">
-                            Mobile
+                            Android Mobile
                         </span>
                     </div>
 
@@ -58,7 +52,7 @@ function Ludo() {
                             LANGUAGE
                         </span>
                         <span className="info-value">
-                            C#
+                            C# Programming
                         </span>
                     </div>
 
@@ -69,75 +63,6 @@ function Ludo() {
                         <span className="info-value">
                             Game Developer
                         </span>
-                    </div>
-
-                </div>
-
-            </section>
-
-            {/* Download Game */}
-            <section className="download-section">
-
-                <div className="section-label">
-                    DOWNLOAD
-                </div>
-
-                <h2 className="section-title">
-                    Play Ludo
-                </h2>
-
-                <p className="about-text">
-                    Download Ludo and experience the game yourself.
-                </p>
-
-                <div className="hero-buttons">
-
-                    {/* <a
-                        href="/downloads/Ludo.apk"
-                        className="button button-primary"
-                        download
-                    >
-                        DOWNLOAD GAME
-                    </a> */}
-
-                    <a href="#about" className="button button-primary">
-                        DOWNLOAD IS DISABLED
-                    </a>
-
-                </div>
-
-            </section>
-
-            <section className="gameplay-section">
-
-                <div className="section-label">
-                    Gameplay
-                </div>
-
-                <h2 className="section-title">
-                    How It Works
-                </h2>
-
-                <div className="gameplay-content">
-
-                    <div className="gameplay-text">
-
-                        <h3>
-                            Classic Ludo
-                        </h3>
-
-                        <p>
-                            LUDO brings the classic board game
-                            experience to mobile devices with
-                            simple controls and engaging gameplay.
-                        </p>
-
-                        <p>
-                            The game focuses on player interaction,
-                            strategy and competition throughout
-                            each match.
-                        </p>
-
                     </div>
 
                 </div>
@@ -206,18 +131,10 @@ function Ludo() {
                     </h2>
 
                     <p className="about-text">
-                        LUDO is a mobile board game created by
-                        Milad Yousefi.
-                        The game focuses on classic board gameplay,
-                        player interaction and competition.
+                        "Ludo" is a 3D mobile board game inspired by the classic Ludo game; 
+                        
+                        its features include new maps, enhanced graphics, and support for up to six players.
                     </p>
-
-                    <div className="skills">
-                        <span className="skill">Mobile</span>
-                        <span className="skill">Unity</span>
-                        <span className="skill">C#</span>
-                        <span className="skill">Game Development</span>
-                    </div>
 
                 </div>
 

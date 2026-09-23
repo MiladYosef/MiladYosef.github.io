@@ -61,7 +61,7 @@
 
 .hero {
     min-height: 100vh;
-    padding: 72px 6% 40px;
+    padding: 90px 6% 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -72,18 +72,30 @@
     .hero::before {
         content: "";
         position: absolute;
-        width: 500px;
-        height: 500px;
+        width: 700px;
+        height: 700px;
         background: #6c3cff;
-        opacity: 0.12;
-        filter: blur(140px);
+        opacity: .12;
+        filter: blur(160px);
         border-radius: 50%;
     }
 
 .hero-content {
     position: relative;
-    text-align: center;
-    max-width: 900px;
+    width: 100%;
+    max-width: 1200px;
+    z-index: 1;
+}
+
+.hero-layout {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 90px;
+}
+
+.hero-text {
+    flex: 1;
 }
 
 .hero-tag {
@@ -98,8 +110,8 @@
 
 .hero h1 {
     margin: 0;
-    font-size: clamp(58px, 9vw, 120px);
-    line-height: 0.95;
+    font-size: clamp(60px,9vw,120px);
+    line-height: .95;
     font-weight: 900;
     letter-spacing: -5px;
 }
@@ -109,12 +121,37 @@
     }
 
 .hero-description {
-    max-width: 620px;
-    margin: 30px auto 0;
+    max-width: 560px;
+    margin-top: 28px;
     color: #9999a4;
     font-size: 18px;
-    line-height: 1.7;
+    line-height: 1.8;
 }
+
+.hero-photo {
+    position: relative;
+    flex-shrink: 0;
+}
+
+    .hero-photo::before {
+        content: "";
+        position: absolute;
+        inset: -28px;
+        border-radius: 50%;
+        background: #7c4dff;
+        filter: blur(70px);
+        opacity: .35;
+    }
+
+    .hero-photo img {
+        position: relative;
+        width: 600px;
+        height: 600px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 4px solid rgba(255,255,255,.12);
+        box-shadow: 0 25px 80px rgba(124,77,255,.35), 0 0 0 12px rgba(255,255,255,.03);
+    }
 
 
 /* =========================
@@ -160,13 +197,10 @@
         transform: translateY(-3px);
     }
 
+
 /* =========================
    Games
 ========================= */
-
-/*#games {
-    scroll-margin-top: 100px;
-}*/
 
 .games-section {
     padding: 120px 6%;
@@ -267,7 +301,7 @@
 ========================= */
 
 #about {
-    scroll-margin-top: 600px;
+    scroll-margin-top: 100px;
 }
 
 .about-section {
@@ -623,7 +657,7 @@
    Responsive - Small Mobile
 ========================= */
 
-@media (max-width: 480px) {
+@media (max-width:768px) {
 
     .nav-links {
         gap: 10px;
@@ -645,5 +679,4 @@
     .screenshots-grid {
         grid-template-columns: 1fr;
     }
-
 }

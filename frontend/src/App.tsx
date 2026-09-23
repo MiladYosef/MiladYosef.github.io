@@ -3,6 +3,7 @@ import Board from "./pages/Board";
 import Ludo from "./pages/Ludo";
 import AirPlane from "./pages/AirPlane";
 import Trio from "./pages/Trio";
+import NumberPuzzles from "./pages/NumberPuzzles";
 
 
 function App() {
@@ -23,6 +24,10 @@ function App() {
         return <Trio />;
     }
 
+    if (window.location.pathname === "/number-puzzles") {
+        return <NumberPuzzles />;
+    }
+
     
 
     return (
@@ -33,44 +38,51 @@ function App() {
                 <div className="logo">YOUSEFI</div>
 
                 <ul className="nav-links">
-                    <li><a href="#games">Games</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#contact">Resume</a></li>
                 </ul>
             </nav>
 
-
-            {/* Hero */}
             <section className="hero">
-                <div className="hero-content">
+            
+            <div className="hero-content hero-layout">
+            
+            <div className="hero-text">
 
-                    <div className="hero-tag">
-                        Game Developer
-                    </div>
+            <div className="hero-tag">
+                Game Developer
+            </div>
 
-                    <h1>
-                        MILAD
-                        <br />
-                        <span>YOUSEFI</span>
-                    </h1>
+            <h1>
+                MILAD
+                <br />
+                <span>YOUSEFI</span>
+            </h1>
 
-                    <p className="hero-description">
-                        I create games and interactive experiences
-                        with a focus on gameplay, creativity and fun.
-                    </p>
+            <p className="hero-description">
+                I create games and interactive experiences
+                with a focus on gameplay, creativity and fun.
+            </p>
 
-                    <div className="hero-buttons">
-                        {/* <a href="#games" className="button button-secondary">
-                            View My Games
-                        </a> */}
+            <div className="hero-buttons">
+                <a href="#about" className="button button-primary">
+                    About Me
+                </a>
+            </div>
 
-                        <a href="#about" className="button button-primary">
-                            About Me
-                        </a>
-
-                    </div>
-
-                </div>
+            </div>
+            
+             <div className="hero-photo">
+              <img
+                src="/images/_MyImageLinkdin.jpg"
+                alt="Milad Yousefi"
+              />
+            
+              </div>
+        
+            
+              </div>
+    
             </section>
 
 
@@ -91,10 +103,6 @@ function App() {
                     <div className="game-overlay"></div>
 
                     <div className="game-info">
-
-                        <div className="game-number">
-                            01
-                        </div>
 
                         <h3>
                             BOARD
@@ -129,10 +137,6 @@ function App() {
 
                     <div className="game-info">
 
-                        <div className="game-number">
-                            02
-                        </div>
-
                         <h3>
                             LUDO
                         </h3>
@@ -165,10 +169,6 @@ function App() {
                     <div className="game-overlay"></div>
 
                     <div className="game-info">
-
-                        <div className="game-number">
-                            03
-                        </div>
 
                         <h3>
                             AIR PLANE
@@ -203,9 +203,39 @@ function App() {
 
                     <div className="game-info">
 
-                        <div className="game-number">
-                            04
-                        </div>
+                        <h3>
+                            TRIO
+                        </h3>
+
+                        <p>
+                            A challenging three-piece aiming game
+                            where precision and timing are the key.
+                        </p>
+
+                        <span className="game-link">
+                            VIEW GAME →
+                        </span>
+
+                    </div>
+
+                </a>
+
+
+
+                {/* NUMBER PUZZLES */}
+
+                <a href="/number-puzzles" className="game-card">
+
+                    <div className="game-image">
+                        <img
+                            src="/images/NumberPuzzles_cover.jpg"
+                            alt="Number Puzzles"
+                        />
+                    </div>
+
+                    <div className="game-overlay"></div>
+
+                    <div className="game-info">
 
                         <h3>
                             TRIO
@@ -307,18 +337,80 @@ function App() {
                     </h2>
 
                     <p className="about-text">
-                        I'm Milad Yousefi, a game developer focused on
-                        creating engaging gameplay experiences.
-                        I enjoy turning ideas into playable games,
-                        experimenting with mechanics and building
-                        polished experiences for players.
+                    
+                    Hello,<br />
+                    
+                    I am Milad Yousefi,<br />
+                    
+                    A game developer with hands-on experience in creating five published titles—projects developed
+                    
+                    solely for my personal portfolio and to gain practical experience in the game publishing process 
+                    
+                    (without advertisements).
+                    
+                    <br /><br />
+                    
+                    I do not hold a formal university degree in this field; my expertise is entirely the result of practical experience in game development.<br />
+                    
+                    I am eager to collaborate with game development companies on a project (freelance) basis.<br />
+                    
+                    I am a dedicated individual with a passion for game development and possess strong debugging skills.
+                    
+                    <br /><br />
+                    
+                    My English proficiency is at a basic level; please send a message to get in touch.
+    
                     </p>
 
-                    <div className="skills">
-                        <span className="skill">Unity</span>
-                        <span className="skill">C#</span>
-                        <span className="skill">Game Development</span>
-                        <span className="skill">Game Design</span>
+                </div>
+
+            </section>
+
+            <section id="contact" className="about-section">
+
+                <div className="game-info-header">
+
+                    <h2 className="section-title">
+                        My Skils
+                    </h2>
+                </div>
+
+                <div className="game-info-grid">
+
+                    <div className="info-item">
+                        <span className="info-label">
+                            PLATFORM
+                        </span>
+                        <span className="info-value">
+                            Android / Pc / IOS
+                        </span>
+                    </div>
+
+                    <div className="info-item">
+                        <span className="info-label">
+                            ENGINE
+                        </span>
+                        <span className="info-value">
+                            Unity (More than 2 years)
+                        </span>
+                    </div>
+
+                    <div className="info-item">
+                        <span className="info-label">
+                            LANGUAGE
+                        </span>
+                        <span className="info-value">
+                            C# Programming
+                        </span>
+                    </div>
+
+                    <div className="info-item">
+                        <span className="info-label">
+                            3D Model
+                        </span>
+                        <span className="info-value">
+                            Blender
+                        </span>
                     </div>
 
                 </div>
@@ -393,7 +485,6 @@ function App() {
                 </div>
 
             </section>
-
 
             {/* Footer */}
             <footer className="footer">

@@ -11,12 +11,6 @@ function Trio() {
                     <li>
                         <a href="/">Home</a>
                     </li>
-                    <li>
-                        <a href="/#games">Games</a>
-                    </li>
-                    <li>
-                        <a href="/#about">About</a>
-                    </li>
                 </ul>
             </nav>
 
@@ -39,7 +33,7 @@ function Trio() {
                             PLATFORM
                         </span>
                         <span className="info-value">
-                            Mobile
+                            Android Mobile
                         </span>
                     </div>
 
@@ -57,7 +51,7 @@ function Trio() {
                             LANGUAGE
                         </span>
                         <span className="info-value">
-                            C#
+                            C# Programming
                         </span>
                     </div>
 
@@ -68,69 +62,6 @@ function Trio() {
                         <span className="info-value">
                             Game Developer
                         </span>
-                    </div>
-
-                </div>
-
-            </section>
-
-            {/* Download Game */}
-            <section className="download-section">
-
-                <div className="section-label">
-                    DOWNLOAD
-                </div>
-
-                <h2 className="section-title">
-                    Play TRIO
-                </h2>
-
-                <p className="about-text">
-                    Download TRIO and experience the game yourself.
-                </p>
-
-                <div className="hero-buttons">
-                    <a
-                        href="/downloads/TRIO.apk"
-                        className="button button-primary"
-                        download
-                    >
-                        DOWNLOAD GAME
-                    </a>
-                </div>
-
-            </section>
-
-            <section className="gameplay-section">
-
-                <div className="section-label">
-                    Gameplay
-                </div>
-
-                <h2 className="section-title">
-                    How It Works
-                </h2>
-
-                <div className="gameplay-content">
-
-                    <div className="gameplay-text">
-
-                        <h3>Precision & Timing</h3>
-
-                        <p>
-                            TRIO is built around a simple idea:
-                            precise aiming and controlled movement.
-                            The player needs to carefully choose the
-                            direction and timing of each move.
-                        </p>
-
-                        <p>
-                            Each challenge is designed to test the
-                            player's accuracy, control and ability
-                            to understand the situation before making
-                            a move.
-                        </p>
-
                     </div>
 
                 </div>
@@ -206,17 +137,10 @@ function Trio() {
                     </h2>
 
                     <p className="about-text">
-                        TRIO is a mobile game created by Milad Yousefi.
-                        The game focuses on challenging gameplay,
-                        precision and player control.
+                        TRIO is a game featuring a unique style and three playing pieces; 
+                        
+                        the challenge lies in maneuvering the pieces between the other two.
                     </p>
-
-                    <div className="skills">
-                        <span className="skill">Mobile</span>
-                        <span className="skill">Unity</span>
-                        <span className="skill">C#</span>
-                        <span className="skill">Game Development</span>
-                    </div>
 
                 </div>
 
