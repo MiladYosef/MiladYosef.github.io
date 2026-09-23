@@ -238,12 +238,13 @@ function App() {
                     <div className="game-info">
 
                         <h3>
-                            TRIO
+                            Number Puzzles
                         </h3>
 
                         <p>
-                            A challenging three-piece aiming game
-                            where precision and timing are the key.
+                            This is a challenging number game that 
+                            
+                            is completed by placing the correct number.
                         </p>
 
                         <span className="game-link">
@@ -255,10 +256,6 @@ function App() {
                 </a>
 
             </div>
-
-
-            {/* About */}
-
 
             {/* Resume */}
             <section id="contact" className="about-section">
@@ -323,6 +320,9 @@ function App() {
                 </div>
 
             </section>
+
+            
+            {/* About */}
 
             <section id="about" className="about-section">
 
